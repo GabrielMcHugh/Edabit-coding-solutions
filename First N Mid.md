@@ -1,4 +1,4 @@
-##First N Mid
+## First N Mid
 Create a function that takes a string and returns the first character of every word if the length of the word is even and the middle character if the length of the word is odd.
 
 Examples
@@ -12,7 +12,7 @@ stmid("Th3 0n3 4nd 0n1y") ➞ "hnn0"
 stmid("who is the winner") ➞ "hihw"
 ```
 
-##Solution
+## Solution
 ```js
 function stmid(str) {
 	let arr = str.split(" ")
